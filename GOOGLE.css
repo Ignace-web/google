@@ -1,0 +1,53 @@
+
+.link{
+    margin:0.5em;
+}
+.boutons{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navright{
+display:flex;
+justify-content: flex-end;
+flex-direction: row;
+}
+
+.navcentre{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.imagecentre{
+    display:flex;
+    justify-content:center;
+    margin-top:8.8em
+}
+
+.barre{
+    display:flex;
+    justify-content:center;
+    margin-top:1.4em;
+    width:35em;
+    padding:0.4em;
+    border: 1px solid grey;
+    border-radius: 60px;
+    
+}
+
+input[type=text]{
+    display: flex;
+    justify-content: center;
+    width:37em;
+    border:2px solid transparent;
+    padding:0.6em;
+
+
+}
+
+.barre:hover{
+box-shadow: 2px 1px 1px grey;
+}
